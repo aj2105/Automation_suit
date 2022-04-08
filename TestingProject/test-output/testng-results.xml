@@ -2,39 +2,39 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19410" started-at="2022-04-08T12:15:40 IST" finished-at="2022-04-08T12:16:00 IST">
+  <suite name="Default suite" duration-ms="12673" started-at="2022-04-09T00:53:37 IST" finished-at="2022-04-09T00:53:50 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19410" started-at="2022-04-08T12:15:40 IST" finished-at="2022-04-08T12:16:00 IST">
-      <class name="allTest.File_Upload">
-        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:allTest.File_Upload@7ba18f1b]" name="BeforeSuite" is-config="true" duration-ms="261" started-at="2022-04-08T12:15:40 IST" finished-at="2022-04-08T12:15:40 IST">
+    <test name="Default test" duration-ms="12673" started-at="2022-04-09T00:53:37 IST" finished-at="2022-04-09T00:53:50 IST">
+      <class name="allTest.searchFunctionTest">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:allTest.searchFunctionTest@7ba18f1b]" name="BeforeSuite" is-config="true" duration-ms="73" started-at="2022-04-09T00:53:37 IST" finished-at="2022-04-09T00:53:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeSuite -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:allTest.File_Upload@7ba18f1b]" name="setUp" is-config="true" duration-ms="5289" started-at="2022-04-08T12:15:40 IST" finished-at="2022-04-08T12:15:46 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:allTest.searchFunctionTest@7ba18f1b]" name="setUp" is-config="true" duration-ms="1702" started-at="2022-04-09T00:53:37 IST" finished-at="2022-04-09T00:53:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="search()[pri:0, instance:allTest.File_Upload@7ba18f1b]" name="search" duration-ms="14031" started-at="2022-04-08T12:15:46 IST" finished-at="2022-04-08T12:16:00 IST">
+        <test-method status="PASS" signature="search()[pri:0, instance:allTest.searchFunctionTest@7ba18f1b]" name="search" duration-ms="10939" started-at="2022-04-09T00:53:39 IST" finished-at="2022-04-09T00:53:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:allTest.File_Upload@7ba18f1b]" name="getResult" is-config="true" duration-ms="12" started-at="2022-04-08T12:16:00 IST" finished-at="2022-04-08T12:16:00 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:allTest.searchFunctionTest@7ba18f1b]" name="getResult" is-config="true" duration-ms="5" started-at="2022-04-09T00:53:50 IST" finished-at="2022-04-09T00:53:50 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=search status=SUCCESS method=File_Upload.search()[pri:0, instance:allTest.File_Upload@7ba18f1b] output={null}]]]>
+                <![CDATA[[TestResult name=search status=SUCCESS method=searchFunctionTest.search()[pri:0, instance:allTest.searchFunctionTest@7ba18f1b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:allTest.File_Upload@7ba18f1b]" name="tearDown" is-config="true" duration-ms="2577" started-at="2022-04-08T12:16:00 IST" finished-at="2022-04-08T12:16:02 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:allTest.searchFunctionTest@7ba18f1b]" name="tearDown" is-config="true" duration-ms="232" started-at="2022-04-09T00:53:50 IST" finished-at="2022-04-09T00:53:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- allTest.File_Upload -->
+      </class> <!-- allTest.searchFunctionTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
