@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="allTest" thread-count="1" parallel="tests">
+
+<test name="boilerServiceTest">
+<classes>
+<class name="allTest.boilerServiceTest"/>
+</classes>
+</test>
+
+<test name="Repair_category">
+<classes>
+<class name="configuration.Repair_category"/>
+</classes>
+</test>
+
+<test name="ComponentTest">
+<classes>
+<class name="configuration.ComponentTest"/>
+</classes>
+</test>
+
+<test name="Component_TypeTest">
+<classes>
+<class name="configuration.Component_TypeTest"/>
+</classes>
+</test>
+
+<test name="Component_HeadersTest">
+<classes>
+<class name="configuration.Component_HeadersTest"/>
+</classes>
+</test>
+
+<test name="Component_Status">
+<classes>
+<class name="configuration.Component_Status"/>
+</classes>
+</test>
+
+<test name="Complience_Item">
+<classes>
+<class name="configuration.Complience_Item"/>
+</classes>
+</test>
+
+<test name="ElectricalTestingReportTest">
+<classes>
+<class name="allTest.ElectricalTestingReportTest"/>
+</classes>
+</test>
+
+<test name="exportCsvTest">
+<classes>
+<class name="allTest.exportCsvTest"/>
+</classes>
+</test>
+
+<test name="unit_of_mesurment">
+<classes>
+<class name="configuration.unit_of_mesurment"/>
+</classes>
+</test>
+
+<test name="Boiler_service_program_filterTest">
+<classes>
+<class name="allTest.Boiler_service_program_filterTest"/>
+</classes>
+</test>
+
+<test name="projectTest">
+<classes>
+<class name="allTest.projectTest"/>
+</classes>
+</test>
+
+<test name="Repair_CodesTest">
+<classes>
+<class name="configuration.Repair_CodesTest"/>
+</classes>
+</test>
+
+<test name="searchFunctionTest">
+<classes>
+<class name="allTest.searchFunctionTest"/>
+</classes>
+</test>
+
+<test name="Sub_categoryTest">
+<classes>
+<class name="configuration.Sub_categoryTest"/>
+</classes>
+</test>
+
+<test name="vendors">
+<classes>
+<class name="allTest.vendors"/>
+</classes>
+</test>
+
+<test name="Admins_Test">
+<classes>
+<class name="user_management.Admins_Test"/>
+</classes>
+</test>
+
+<test name="Employees_Test">
+<classes>
+<class name="user_management.Employees_Test"/>
+</classes>
+</test>
+
+
+<test name="Survey_types">
+<classes>
+<class name="surveys.Survey_types"/>
+</classes>
+</test>
+
+<test name="Survey_Questions">
+<classes>
+<class name="surveys.Survey_Questions"/>
+</classes>
+</test>
+
+
+
+
+</suite>
