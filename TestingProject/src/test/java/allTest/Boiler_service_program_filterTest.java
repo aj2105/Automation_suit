@@ -93,8 +93,8 @@ public class Boiler_service_program_filterTest extends baseTest{
 			WebElement Filter=driver.findElement(By.xpath("//span[normalize-space()='Filter']"));
 			Filter.click();
 			
-			WebElement Climotes=driver.findElement(By.id("climotes"));
-			Climotes.click();
+	//		WebElement Climotes=driver.findElement(By.id("climotes"));
+	//		Climotes.click();
 			test.info("Boiler_service_program_Filter_test");
 			driver.quit();
 			

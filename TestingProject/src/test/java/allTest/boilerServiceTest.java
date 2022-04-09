@@ -101,7 +101,7 @@ public class boilerServiceTest extends baseTest{
 		*/
 		
 		
-		WebElement upload=driver.findElement(By.xpath("//span[normalize-space()='Upload']"));
+	/*	WebElement upload=driver.findElement(By.xpath("//span[normalize-space()='Upload']"));
 		upload.click();
 		test.info("validating Upload action");
 	/*	
