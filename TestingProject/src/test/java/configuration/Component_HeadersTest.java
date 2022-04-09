@@ -107,7 +107,7 @@ public void setUp()
 		Thread.sleep(2000);
 //		driver.findElement(By.xpath("//input[@id='category']")).click();
 		
-		driver.findElement(By.xpath("//input[@id='replacement_type']")).click();
+//		driver.findElement(By.xpath("//input[@id='replacement_type']")).click();
 		
 		driver.findElement(By.xpath("//span[normalize-space()='Save']")).click();
 		
