@@ -1,4 +1,4 @@
-package configuration;
+	package configuration;
 
 import java.time.Duration;
 import org.openqa.selenium.By;
@@ -105,7 +105,7 @@ public void setUp()
 		
 		driver.findElement(By.xpath("//input[@id='name']")).sendKeys("Test_Name");
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//input[@id='category']")).click();
+//		driver.findElement(By.xpath("//input[@id='category']")).click();
 		
 		driver.findElement(By.xpath("//input[@id='replacement_type']")).click();
 		
