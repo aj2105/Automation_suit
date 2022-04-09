@@ -68,7 +68,7 @@ public void setUp()
 	//driver.findElement(By.xpath("//button[contains(@class,'MuiButtonBase-root MuiButton-root MuiButton-contained .btn-primary MuiButton-containedPrimary')]")).click();
 	
 	
-	    driver.findElement(By.xpath("//span[normalize-space()='Upload']")).click();
+	//    driver.findElement(By.xpath("//span[normalize-space()='Upload']")).click();
 	
 	
       //  driver.findElement(By.xpath("//div[contains(@class,'MuiDropzoneArea-textContainer')]//*[name()='svg']")).click();
