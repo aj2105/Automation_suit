@@ -38,7 +38,6 @@ public class baseTest {
 	    htmlReporter.config().setReportName("QA Report");
 	    htmlReporter.config().setTheme(Theme.DARK);
 		
-	 
 	}
 	@AfterMethod(alwaysRun=true)
 	public void getResult(ITestResult result)

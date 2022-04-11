@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [allTest]" parallel="tests">
+  <test thread-count="1" name="boilerServiceTest(failed)" parallel="tests">
+    <classes>
+      <class name="allTest.boilerServiceTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="dashboard"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- allTest.boilerServiceTest -->
+    </classes>
+  </test> <!-- boilerServiceTest(failed) -->
+  <test thread-count="1" name="Repair_category(failed)" parallel="tests">
+    <classes>
+      <class name="configuration.Repair_category">
+        <methods>
+          <include name="setUp"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="Category"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- configuration.Repair_category -->
+    </classes>
+  </test> <!-- Repair_category(failed) -->
+  <test thread-count="1" name="ComponentTest(failed)" parallel="tests">
+    <classes>
+      <class name="configuration.ComponentTest">
+        <methods>
+          <include name="component"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- configuration.ComponentTest -->
+    </classes>
+  </test> <!-- ComponentTest(failed) -->
+  <test thread-count="1" name="Component_TypeTest(failed)" parallel="tests">
+    <classes>
+      <class name="configuration.Component_TypeTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="componentType"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- configuration.Component_TypeTest -->
+    </classes>
+  </test> <!-- Component_TypeTest(failed) -->
+  <test thread-count="1" name="Component_HeadersTest(failed)" parallel="tests">
+    <classes>
+      <class name="configuration.Component_HeadersTest">
+        <methods>
+          <include name="UserManagement"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- configuration.Component_HeadersTest -->
+    </classes>
+  </test> <!-- Component_HeadersTest(failed) -->
+  <test thread-count="1" name="Component_Status(failed)" parallel="tests">
+    <classes>
+      <class name="configuration.Component_Status">
+        <methods>
+          <include name="setUp"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="ComponentStatus"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- configuration.Component_Status -->
+    </classes>
+  </test> <!-- Component_Status(failed) -->
+  <test thread-count="1" name="Complience_Item(failed)" parallel="tests">
+    <classes>
+      <class name="configuration.Complience_Item">
+        <methods>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="ComplienceItem"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- configuration.Complience_Item -->
+    </classes>
+  </test> <!-- Complience_Item(failed) -->
+  <test thread-count="1" name="ElectricalTestingReportTest(failed)" parallel="tests">
+    <classes>
+      <class name="allTest.ElectricalTestingReportTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="setUp1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- allTest.ElectricalTestingReportTest -->
+    </classes>
+  </test> <!-- ElectricalTestingReportTest(failed) -->
+  <test thread-count="1" name="exportCsvTest(failed)" parallel="tests">
+    <classes>
+      <class name="allTest.exportCsvTest">
+        <methods>
+          <include name="BeforeSuite"/>
+          <include name="setUp"/>
+          <include name="getResult"/>
+          <include name="search"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- allTest.exportCsvTest -->
+    </classes>
+  </test> <!-- exportCsvTest(failed) -->
+  <test thread-count="1" name="unit_of_mesurment(failed)" parallel="tests">
+    <classes>
+      <class name="configuration.unit_of_mesurment">
+        <methods>
+          <include name="setUp"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="mesurment"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- configuration.unit_of_mesurment -->
+    </classes>
+  </test> <!-- unit_of_mesurment(failed) -->
+  <test thread-count="1" name="Boiler_service_program_filterTest(failed)" parallel="tests">
+    <classes>
+      <class name="allTest.Boiler_service_program_filterTest">
+        <methods>
+          <include name="search"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- allTest.Boiler_service_program_filterTest -->
+    </classes>
+  </test> <!-- Boiler_service_program_filterTest(failed) -->
+  <test thread-count="1" name="projectTest(failed)" parallel="tests">
+    <classes>
+      <class name="allTest.projectTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="ips"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- allTest.projectTest -->
+    </classes>
+  </test> <!-- projectTest(failed) -->
+  <test thread-count="1" name="Repair_CodesTest(failed)" parallel="tests">
+    <classes>
+      <class name="configuration.Repair_CodesTest">
+        <methods>
+          <include name="repairCode"/>
+          <include name="setUp"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- configuration.Repair_CodesTest -->
+    </classes>
+  </test> <!-- Repair_CodesTest(failed) -->
+  <test thread-count="1" name="searchFunctionTest(failed)" parallel="tests">
+    <classes>
+      <class name="allTest.searchFunctionTest">
+        <methods>
+          <include name="search"/>
+          <include name="setUp"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- allTest.searchFunctionTest -->
+    </classes>
+  </test> <!-- searchFunctionTest(failed) -->
+  <test thread-count="1" name="Sub_categoryTest(failed)" parallel="tests">
+    <classes>
+      <class name="configuration.Sub_categoryTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="subCategory"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- configuration.Sub_categoryTest -->
+    </classes>
+  </test> <!-- Sub_categoryTest(failed) -->
+  <test thread-count="1" name="vendors(failed)" parallel="tests">
+    <classes>
+      <class name="allTest.vendors">
+        <methods>
+          <include name="setUp"/>
+          <include name="dashboard"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- allTest.vendors -->
+    </classes>
+  </test> <!-- vendors(failed) -->
+  <test thread-count="1" name="Admins_Test(failed)" parallel="tests">
+    <classes>
+      <class name="user_management.Admins_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="Admins_overview_page"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- user_management.Admins_Test -->
+    </classes>
+  </test> <!-- Admins_Test(failed) -->
+  <test thread-count="1" name="Employees_Test(failed)" parallel="tests">
+    <classes>
+      <class name="user_management.Employees_Test">
+        <methods>
+          <include name="Employees_Overview"/>
+          <include name="setUp"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- user_management.Employees_Test -->
+    </classes>
+  </test> <!-- Employees_Test(failed) -->
+  <test thread-count="1" name="Survey_types(failed)" parallel="tests">
+    <classes>
+      <class name="surveys.Survey_types">
+        <methods>
+          <include name="BeforeSuite"/>
+          <include name="setUp"/>
+          <include name="getResult"/>
+          <include name="Survey_Type"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- surveys.Survey_types -->
+    </classes>
+  </test> <!-- Survey_types(failed) -->
+  <test thread-count="1" name="Survey_Questions(failed)" parallel="tests">
+    <classes>
+      <class name="surveys.Survey_Questions">
+        <methods>
+          <include name="setUp"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="Survey_questions"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- surveys.Survey_Questions -->
+    </classes>
+  </test> <!-- Survey_Questions(failed) -->
+  <test thread-count="1" name="AssetManagement_Validation(failed)" parallel="tests">
+    <classes>
+      <class name="Suite.AssetManagement_Validation">
+        <methods>
+          <include name="testeasy_AssetManagement_Validation"/>
+          <include name="afterTest_AssetManagement_Validation"/>
+          <include name="setUp_AssetManagement_Validation"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Suite.AssetManagement_Validation -->
+    </classes>
+  </test> <!-- AssetManagement_Validation(failed) -->
+  <test thread-count="1" name="block_Overview(failed)" parallel="tests">
+    <classes>
+      <class name="Suite.block_Overview">
+        <methods>
+          <include name="testeasy_block_overview"/>
+          <include name="setUp"/>
+          <include name="afterTest"/>
+          <include name="beforeTest_block_Overview"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Suite.block_Overview -->
+    </classes>
+  </test> <!-- block_Overview(failed) -->
+  <test thread-count="1" name="block_Tab(failed)" parallel="tests">
+    <classes>
+      <class name="Suite.block_Tab">
+        <methods>
+          <include name="afterTest_block_Tab"/>
+          <include name="setUp_block_Tab"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="testeasy_block_tab"/>
+        </methods>
+      </class> <!-- Suite.block_Tab -->
+    </classes>
+  </test> <!-- block_Tab(failed) -->
+  <test thread-count="1" name="properties_Tab(failed)" parallel="tests">
+    <classes>
+      <class name="Suite.properties_Tab">
+        <methods>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="testeasy_Properties_tab_Overview"/>
+          <include name="afterTest_properties_Tab"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Suite.properties_Tab -->
+    </classes>
+  </test> <!-- properties_Tab(failed) -->
+  <test thread-count="1" name="propeties_Overview(failed)" parallel="tests">
+    <classes>
+      <class name="Suite.propeties_Overview">
+        <methods>
+          <include name="testeasy_Properties_Overview"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="afterTest_Properties_Overview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Suite.propeties_Overview -->
+    </classes>
+  </test> <!-- propeties_Overview(failed) -->
+  <test thread-count="1" name="schemes_Overview(failed)" parallel="tests">
+    <classes>
+      <class name="Suite.schemes_Overview">
+        <methods>
+          <include name="Schemes_Overview"/>
+          <include name="afterTest_Properties_Overview"/>
+          <include name="setUp"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="teardown"/>
+          <include name="beforeTest_Properties_Overview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Suite.schemes_Overview -->
+    </classes>
+  </test> <!-- schemes_Overview(failed) -->
+  <test thread-count="1" name="schemes_Tab(failed)" parallel="tests">
+    <classes>
+      <class name="Suite.schemes_Tab">
+        <methods>
+          <include name="testeasy_schemes_tab"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="afterTest_schemes_Tab"/>
+          <include name="setUp_schemes_Tab"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Suite.schemes_Tab -->
+    </classes>
+  </test> <!-- schemes_Tab(failed) -->
+  <test thread-count="1" name="BoilerServiceProgramme_Overview(failed)" parallel="tests">
+    <classes>
+      <class name="Suite.BoilerServiceProgramme_Overview">
+        <methods>
+          <include name="BoilerService_Overview"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="afterTest_Properties_Overview"/>
+        </methods>
+      </class> <!-- Suite.BoilerServiceProgramme_Overview -->
+    </classes>
+  </test> <!-- BoilerServiceProgramme_Overview(failed) -->
+  <test thread-count="1" name="Vendor_Overview(failed)" parallel="tests">
+    <classes>
+      <class name="Suite.Vendor_Overview">
+        <methods>
+          <include name="setUp"/>
+          <include name="Vendor_Overview_Validation"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Suite.Vendor_Overview -->
+    </classes>
+  </test> <!-- Vendor_Overview(failed) -->
+  <test thread-count="1" name="gasBoilerServiceProgramme_ItemOverview(failed)" parallel="tests">
+    <classes>
+      <class name="Suite.gasBoilerServiceProgramme_ItemOverview">
+        <methods>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="testeasy_gasBoiler_tab"/>
+          <include name="afterTest_Properties_Overview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Suite.gasBoilerServiceProgramme_ItemOverview -->
+    </classes>
+  </test> <!-- gasBoilerServiceProgramme_ItemOverview(failed) -->
+  <test thread-count="1" name="oilBoilerServiceProgramme_ItemOverview(failed)" parallel="tests">
+    <classes>
+      <class name="Suite.oilBoilerServiceProgramme_ItemOverview">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterTest_Properties_Overview"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="testeasy_oilBoiler_tab"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Suite.oilBoilerServiceProgramme_ItemOverview -->
+    </classes>
+  </test> <!-- oilBoilerServiceProgramme_ItemOverview(failed) -->
+  <test thread-count="1" name="schemes_SearchFunctionality(failed)" parallel="tests">
+    <classes>
+      <class name="Suite.schemes_SearchFunctionality">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterTest"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="testeasy_schemeSearch_tab"/>
+        </methods>
+      </class> <!-- Suite.schemes_SearchFunctionality -->
+    </classes>
+  </test> <!-- schemes_SearchFunctionality(failed) -->
+  <test thread-count="1" name="properties_SearchFunctionality(failed)" parallel="tests">
+    <classes>
+      <class name="Suite.properties_SearchFunctionality">
+        <methods>
+          <include name="afterTest"/>
+          <include name="testeasy_blockSearch_tab"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Suite.properties_SearchFunctionality -->
+    </classes>
+  </test> <!-- properties_SearchFunctionality(failed) -->
+  <test thread-count="1" name="boilerServiceProgramme_SearchFunctionality(failed)" parallel="tests">
+    <classes>
+      <class name="Suite.boilerServiceProgramme_SearchFunctionality">
+        <methods>
+          <include name="testeasy_blockSearch_tab"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Suite.boilerServiceProgramme_SearchFunctionality -->
+    </classes>
+  </test> <!-- boilerServiceProgramme_SearchFunctionality(failed) -->
+  <test thread-count="1" name="tenant_Overview(failed)" parallel="tests">
+    <classes>
+      <class name="Suite.tenant_Overview">
+        <methods>
+          <include name="setUp"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="afterTest"/>
+          <include name="Tenants_Overview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Suite.tenant_Overview -->
+    </classes>
+  </test> <!-- tenant_Overview(failed) -->
+  <test thread-count="1" name="sites_Overview(failed)" parallel="tests">
+    <classes>
+      <class name="Suite.sites_Overview">
+        <methods>
+          <include name="testeasy_Sites_Overview"/>
+          <include name="setUp"/>
+          <include name="afterTest_Properties_Overview"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Suite.sites_Overview -->
+    </classes>
+  </test> <!-- sites_Overview(failed) -->
+  <test thread-count="1" name="sites_Tab(failed)" parallel="tests">
+    <classes>
+      <class name="Suite.sites_Tab">
+        <methods>
+          <include name="testeasy_Sites_Overview"/>
+          <include name="afterTest_properties_Tab"/>
+          <include name="setUp"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Suite.sites_Tab -->
+    </classes>
+  </test> <!-- sites_Tab(failed) -->
+  <test thread-count="1" name="Repairs_Overview(failed)" parallel="tests">
+    <classes>
+      <class name="Suite.Repairs_Overview">
+        <methods>
+          <include name="test_Repairs_Overview"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="afterTest_Properties_Overview"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Suite.Repairs_Overview -->
+    </classes>
+  </test> <!-- Repairs_Overview(failed) -->
+  <test thread-count="1" name="payments_Overview(failed)" parallel="tests">
+    <classes>
+      <class name="Suite.payments_Overview">
+        <methods>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="afterTest"/>
+          <include name="Payment_Overview"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Suite.payments_Overview -->
+    </classes>
+  </test> <!-- payments_Overview(failed) -->
+  <test thread-count="1" name="ResourceManagement_Overview(failed)" parallel="tests">
+    <classes>
+      <class name="Suite.ResourceManagement_Overview">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterTest_ResourceManagement_Overview"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="test_ResourceManagement_Overview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Suite.ResourceManagement_Overview -->
+    </classes>
+  </test> <!-- ResourceManagement_Overview(failed) -->
+  <test thread-count="1" name="tickets_Overview(failed)" parallel="tests">
+    <classes>
+      <class name="Suite.tickets_Overview">
+        <methods>
+          <include name="afterTest"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="Ticket_Overview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Suite.tickets_Overview -->
+    </classes>
+  </test> <!-- tickets_Overview(failed) -->
+  <test thread-count="1" name="Surveys_Overview(failed)" parallel="tests">
+    <classes>
+      <class name="Suite.Surveys_Overview">
+        <methods>
+          <include name="Survey_Overview"/>
+          <include name="BeforeSuite"/>
+          <include name="getResult"/>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Suite.Surveys_Overview -->
+    </classes>
+  </test> <!-- Surveys_Overview(failed) -->
+</suite> <!-- Failed suite [allTest] -->

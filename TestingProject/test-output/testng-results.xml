@@ -2,39 +2,47 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8903" started-at="2022-04-09T01:19:32 IST" finished-at="2022-04-09T01:19:41 IST">
+  <suite name="Default suite" duration-ms="20260" started-at="2022-04-11T17:06:34 IST" finished-at="2022-04-11T17:06:55 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8903" started-at="2022-04-09T01:19:32 IST" finished-at="2022-04-09T01:19:41 IST">
-      <class name="allTest.projectTest">
-        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:allTest.projectTest@7ba18f1b]" name="BeforeSuite" is-config="true" duration-ms="103" started-at="2022-04-09T01:19:32 IST" finished-at="2022-04-09T01:19:32 IST">
+    <test name="Default test" duration-ms="20260" started-at="2022-04-11T17:06:34 IST" finished-at="2022-04-11T17:06:55 IST">
+      <class name="Suite.block_Overview">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:Suite.block_Overview@6591f517]" name="BeforeSuite" is-config="true" duration-ms="260" started-at="2022-04-11T17:06:34 IST" finished-at="2022-04-11T17:06:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeSuite -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:allTest.projectTest@7ba18f1b]" name="setUp" is-config="true" duration-ms="2307" started-at="2022-04-09T01:19:32 IST" finished-at="2022-04-09T01:19:34 IST">
+        <test-method status="PASS" signature="beforeTest_block_Overview()[pri:0, instance:Suite.block_Overview@6591f517]" name="beforeTest_block_Overview" is-config="true" duration-ms="1" started-at="2022-04-11T17:06:34 IST" finished-at="2022-04-11T17:06:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest_block_Overview -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Suite.block_Overview@6591f517]" name="setUp" is-config="true" duration-ms="4637" started-at="2022-04-11T17:06:34 IST" finished-at="2022-04-11T17:06:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ips()[pri:0, instance:allTest.projectTest@7ba18f1b]" name="ips" duration-ms="6563" started-at="2022-04-09T01:19:34 IST" finished-at="2022-04-09T01:19:41 IST">
+        <test-method status="PASS" signature="testeasy_block_overview()[pri:0, instance:Suite.block_Overview@6591f517]" name="testeasy_block_overview" duration-ms="15455" started-at="2022-04-11T17:06:39 IST" finished-at="2022-04-11T17:06:55 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ips -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:allTest.projectTest@7ba18f1b]" name="getResult" is-config="true" duration-ms="5" started-at="2022-04-09T01:19:41 IST" finished-at="2022-04-09T01:19:41 IST">
+        </test-method> <!-- testeasy_block_overview -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Suite.block_Overview@6591f517]" name="getResult" is-config="true" duration-ms="6" started-at="2022-04-11T17:06:55 IST" finished-at="2022-04-11T17:06:55 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ips status=SUCCESS method=projectTest.ips()[pri:0, instance:allTest.projectTest@7ba18f1b] output={null}]]]>
+                <![CDATA[[TestResult name=testeasy_block_overview status=SUCCESS method=block_Overview.testeasy_block_overview()[pri:0, instance:Suite.block_Overview@6591f517] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:allTest.projectTest@7ba18f1b]" name="tearDown" is-config="true" duration-ms="321" started-at="2022-04-09T01:19:41 IST" finished-at="2022-04-09T01:19:41 IST">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Suite.block_Overview@6591f517]" name="afterTest" is-config="true" duration-ms="112" started-at="2022-04-11T17:06:55 IST" finished-at="2022-04-11T17:06:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Suite.block_Overview@6591f517]" name="tearDown" is-config="true" duration-ms="613" started-at="2022-04-11T17:06:55 IST" finished-at="2022-04-11T17:06:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- allTest.projectTest -->
+      </class> <!-- Suite.block_Overview -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

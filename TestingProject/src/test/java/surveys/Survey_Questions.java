@@ -7,10 +7,12 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import allTest.baseTest;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Survey_Questions extends baseTest {
 	
@@ -20,7 +22,7 @@ public static WebDriver driver;
 	@BeforeMethod
 	public void setUp()
 	{
-	/*	WebDriverManager.chromedriver().setup();
+		WebDriverManager.chromedriver().setup();
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--no-sandbox");
 		options.addArguments("--disable-dev-shm-usage");
@@ -28,10 +30,10 @@ public static WebDriver driver;
 		options.addArguments("--window-size=1920,1200");
 		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(7000));    */
+		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(7000));   
 		
-		System.setProperty("webdriver.chrome.driver","/Users/ajay.mishra/Documents/Driver/chromedriver");
-		WebDriver driver=new ChromeDriver();
+	/*	System.setProperty("webdriver.chrome.driver","/Users/ajay.mishra/Documents/Driver/chromedriver");
+		WebDriver driver=new ChromeDriver();        */
 		
 	}
 

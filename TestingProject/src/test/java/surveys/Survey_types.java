@@ -24,7 +24,7 @@ public class Survey_types extends baseTest{
 	@BeforeMethod
 	public void setUp()
 	{
-	/*	WebDriverManager.chromedriver().setup();
+    	WebDriverManager.chromedriver().setup();
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--no-sandbox");
 		options.addArguments("--disable-dev-shm-usage");
@@ -32,7 +32,7 @@ public class Survey_types extends baseTest{
 		options.addArguments("--window-size=1920,1200");
 		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(7000));    */
+		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(7000));    
 		
 	//	System.setProperty("webdriver.chrome.driver","/Users/ajay.mishra/Documents/Driver/chromedriver");
 	//	WebDriver driver=new ChromeDriver();
